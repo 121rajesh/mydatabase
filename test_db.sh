@@ -18,4 +18,4 @@ fi
 docker build . -t mydb
 
 # start the container
-docker container run -itd -p 4200:80 --name my_db mydb
+docker container run -itd -p 8088:3306 --name my_db mydb
