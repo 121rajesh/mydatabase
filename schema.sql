@@ -1,5 +1,4 @@
-create database emp;
-use emp;
+
 
 create table emp(S_No int(4),Name varchar(40),Address varchar(40));
 
